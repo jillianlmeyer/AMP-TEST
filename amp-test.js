@@ -103,11 +103,11 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			]
 		},
 
-		//For the example block (often practice)
-		exampleBlock_fixationDuration : 1000, 
-		exampleBlock_primeDuration : 1000, 
+		//For the example block (often practice)  - MEASURED IN MILLISECONS.  1000MS = 1 SECOND
+		exampleBlock_fixationDuration : 500, 
+		exampleBlock_primeDuration : 500, 
 		exampleBlock_postPrimeDuration : 1000, 
-		exampleBlock_targetDuration : 1000,
+		exampleBlock_targetDuration : 500,
 
 		// ****** END EXAMPLE ROUND ********
 		
