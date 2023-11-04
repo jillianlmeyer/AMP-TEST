@@ -70,7 +70,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			]
 		},
 
-	
+		exampleTargetStimulus : {
+			nameForLogging : 'exampleTarget', //Will be used in the logging
+			//An array of all media objects for this category.
+			mediaArray : [
+				{word : 'armchair'}, 
+				{word : 'lamp'}, 
+				{word : 'umbrella'},
+				{word: 'upset'},
+				{word: 'unhappy'}
+			]
+		},
 
 		trialsInBlock : [40, 40, 40, 40], //Number of trials in each block 
 		trialsInExample : 5, //Change to 0 if you don't want an example block
