@@ -37,6 +37,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			mediaArray : [{image : 'ampchair.jpg'}, {image : 'amplamp.jpg'}, {image : 'ampumbrella.jpg'}]
 		},
 
+		sortingLabel1 : 'Jill', //Response is coded as 0. 
+		sortingLabel2 : 'Not Jill',  //Response is coded as 1.
+		
 		base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/ampImages'
 		}
