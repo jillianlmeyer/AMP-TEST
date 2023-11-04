@@ -104,8 +104,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				{word : 'armchair'}, 
 				{word : 'lamp'}, 
 				{word : 'umbrella'},
-				{word: 'upset'},
-				{word: 'unhappy'}
+				{word: 'murder'},
+				{word: 'rape'}
 			]
 		},
 
