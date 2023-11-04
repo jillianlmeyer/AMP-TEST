@@ -52,6 +52,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 		trialsInBlock : [40, 40, 40, 40], //Number of trials in each block 
 		trialsInExample : 5, //Change to 0 if you don't want an example block
+
+		primeDuration : 10000,  
 		
 		sortingLabel1 : 'Jill', //Response is coded as 0. 
 		sortingLabel2 : 'Not Jill',  //Response is coded as 1.
