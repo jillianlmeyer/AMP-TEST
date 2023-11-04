@@ -25,6 +25,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'<color="000000">[Round 1 of nBlocks]</p></div>',
 		
 		//  ***** REAL TRIAL ************//
+		//The CSS for all the prime stimuli.
+			primeStimulusCSS : {color:'#FFFF00','font-size':'2.3em'},
+			//The prime categories.
 		primeCats :  [
 			{
 				nameForFeedback : 'CMTs',  //Will be used in the user feedback 
