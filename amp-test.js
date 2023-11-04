@@ -94,9 +94,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		ITI : 250, //Duration between trials.
 
 		//For the example block (often practice)
-		exampleBlock_fixationDuration : -1, 
-		exampleBlock_primeDuration : 100, 
-		exampleBlock_postPrimeDuration : 100, 
+		exampleBlock_fixationDuration : 1000, 
+		exampleBlock_primeDuration : 100000, 
+		exampleBlock_postPrimeDuration : 100000, 
 		exampleBlock_targetDuration : 300,
 
 		
