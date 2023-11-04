@@ -10,8 +10,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 	
 		sortingLabel1 : 'Neutral', //Response is coded as 0. 
 		sortingLabel2 : 'Negative',  //Response is coded as 1.
-		
 
+		targetCat : 'SECOND word', //The name of the targets (used in the instructions)
+		
 		//  ***** REAL TRIAL ************//
 		primeCats :  [
 			{
