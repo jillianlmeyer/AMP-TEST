@@ -11,6 +11,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		sortingLabel1 : 'Neutral', //Response is coded as 0. 
 		sortingLabel2 : 'Morally Wrong',  //Response is coded as 1.
 
+		rightKey : 'm', 
+		leftKey : 'z',
+
 		targetCat : 'SECOND word', //The name of the targets (used in the instructions)
 
 		//Instructions text for the 2-responses version.
