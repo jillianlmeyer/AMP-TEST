@@ -62,11 +62,11 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
 			mediaArray : [
-				{word : 'armchair'}, 
-				{word : 'lamp'}, 
-				{word : 'umbrella'},
-				{word: 'upset'},
-				{word: 'unhappy'}
+				{word : 'armchair prime'}, 
+				{word : 'lamp prime '}, 
+				{word : 'umbrella prmie '},
+				{word: 'upset prime'},
+				{word: 'unhappy prime'}
 			]
 		},
 
@@ -74,11 +74,11 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			nameForLogging : 'exampleTarget', //Will be used in the logging
 			//An array of all media objects for this category.
 			mediaArray : [
-				{word : 'armchair'}, 
-				{word : 'lamp'}, 
-				{word : 'umbrella'},
-				{word: 'upset'},
-				{word: 'unhappy'}
+				{word : 'armchair target'}, 
+				{word : 'lamp target'}, 
+				{word : 'umbrella target'},
+				{word: 'upset target'},
+				{word: 'unhappy target'}
 			]
 		},
 
