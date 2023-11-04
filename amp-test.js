@@ -83,6 +83,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		showRatingDuration : 300, //In the 7-responses option, for how long to show the selected rating.
 		ITI : 250, //Duration between trials.
 
+		//For the example block (often practice)
+		exampleBlock_fixationDuration : -1, 
+		exampleBlock_primeDuration : 100, 
+		exampleBlock_postPrimeDuration : 100, 
+		exampleBlock_targetDuration : 300,
+
 		
 		sortingLabel1 : 'Neutral', //Response is coded as 0. 
 		sortingLabel2 : 'Negative',  //Response is coded as 1.
