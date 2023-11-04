@@ -8,8 +8,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		trialsInBlock : [40, 40, 40, 40], //Number of trials in each block 
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 	
-		sortingLabel1 : 'Neutral', //Response is coded as 0. 
-		sortingLabel2 : 'Morally Wrong',  //Response is coded as 1.
+		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
+		sortingLabel2 : 'Neutral',  //Response is coded as 1.
 
 		rightKey : 'm', 
 		leftKey : 'z',
