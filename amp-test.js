@@ -9,12 +9,13 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForFeedback : 'CMTs',  //Will be used in the user feedback 
 				nameForLogging : 'CMTs', //Will be used in the logging
 				//An array of all media objects for this category.
-				mediaArray : [
-				    {word : 'unfairness'}, 
+				media array : [
+					{word : 'unfairness'}, 
 					{word : 'cheating'}, 
 					{word : 'deception'}, 
 					{word : 'lying'}, 
-					{word : 'stealing'}]
+					{word : 'stealing'}
+				]
 
 			}, 
 			{
@@ -22,11 +23,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'Neutrals', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'writing'}, 
+				    	{word : 'writing'}, 
 					{word : 'farming'}, 
 					{word : 'baking'}, 
 					{word : 'painting'}, 
-					{word : 'poetry'}]
+					{word : 'poetry'}
+				]
 			}
 		],
 
@@ -39,7 +41,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 					{word : 'farming'}, 
 					{word : 'baking'}, 
 					{word : 'painting'}, 
-					{word : 'poetry'}]
+					{word : 'poetry'}
+				]
 				
 			},
 				{
@@ -50,7 +53,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 					{word : 'rape'}, 
 					{word : 'assault'}, 
 					{word : 'racism'}, 
-					{word : 'torture'}]
+					{word : 'torture'}
+				]
 				}
 			],
 
@@ -62,7 +66,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				{word : 'lamp'}, 
 				{word : 'umbrella'},
 				{word: 'upset'},
-				{word: 'unhappy'}]
+				{word: 'unhappy'}
+			]
 			},
 
 		trialsInBlock : [40, 40, 40, 40], //Number of trials in each block 
