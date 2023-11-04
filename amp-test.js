@@ -32,29 +32,48 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 		targetCats :  [
 				{
-					nameForLogging : 'targetcats',  //Will be used in the logging
-					//An array of all media objects for this category. The default is pic1-pic200.jpg
-					mediaArray : [
-						{word : 'sad'}, {word : 'happy'}
-					]
+				nameForLogging : 'Neutrals',  //Will be used in the logging
+				//An array of all media objects for this category. The default is pic1-pic200.jpg
+				mediaArray : [
+					{word : 'writing'}, 
+					{word : 'farming'}, 
+					{word : 'baking'}, 
+					{word : 'painting'}, 
+					{word : 'poetry'}]
 				
+			},
+				{
+				nameForLogging : 'Negatives',  //Will be used in the logging
+				//An array of all media objects for this category. The default is pic1-pic200.jpg
+				mediaArray : [
+					{word : 'murder'}, 
+					{word : 'rape'}, 
+					{word : 'assault'}, 
+					{word : 'racism'}, 
+					{word : 'torture'}]
 				}
 			],
 
 		
 
-		examplePrimeStimulus : 
-		{
+		examplePrimeStimulus : [
+			{
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
-			mediaArray : [{image : 'ampchair.jpg'}, {image : 'amplamp.jpg'}, {image : 'ampumbrella.jpg'}]
-		},
+			mediaArray : [
+				{word : 'armchair'}, 
+				{word : 'lamp'}, 
+				{word : 'umbrella'},
+				{word: 'upset'},
+				{word: 'unhappy'}]
+			}
+		],
 
 		trialsInBlock : [40, 40, 40, 40], //Number of trials in each block 
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 		
-		sortingLabel1 : 'Jill', //Response is coded as 0. 
-		sortingLabel2 : 'Not Jill',  //Response is coded as 1.
+		sortingLabel1 : 'Neutral', //Response is coded as 0. 
+		sortingLabel2 : 'Negative',  //Response is coded as 1.
 		
 		base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/ampImages'
