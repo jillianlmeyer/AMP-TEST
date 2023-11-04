@@ -97,6 +97,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 
 		// *********  EXAMPLE ROUND  *****************
+		exampleprimeStimulusCSS : {color:'#FFFF00','font-size':'2.3em'},
 		examplePrimeStimulus : {
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
@@ -109,6 +110,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			]
 		},
 
+		exampleTargetStimulusCSS : {color:'#0000FF','font-size':'2.3em'},
 		exampleTargetStimulus : {
 			nameForLogging : 'exampleTarget', //Will be used in the logging
 			//An array of all media objects for this category.
