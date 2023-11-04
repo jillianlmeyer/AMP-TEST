@@ -86,11 +86,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			],
 
 		//Duration parameters.
-		fixationDuration : 1000, //It means that by default we do not use fixation.
-		primeDuration : 1000, 
-		postPrimeDuration : 1000, //Duration of blank screen between prime and target.
-		targetDuration : 1000, //Duration of target presentation.
-		showRatingDuration : 300, //In the 7-responses option, for how long to show the selected rating.
+		fixationDuration : 200, //It means that by default we do not use fixation.
+		primeDuration : 100, 
+		postPrimeDuration : 75, //Duration of blank screen between prime and target.
+		targetDuration : 500, //Duration of target presentation.
 		ITI : 250, //Duration between trials.
 
 		//  ********* END REAL TRIALS **********//
@@ -124,9 +123,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		},
 
 		//For the example block (often practice)  - MEASURED IN MILLISECONS.  1000MS = 1 SECOND
-		exampleBlock_fixationDuration : 500, 
-		exampleBlock_primeDuration : 500, 
-		exampleBlock_postPrimeDuration : 1000, 
+		exampleBlock_fixationDuration : 200, 
+		exampleBlock_primeDuration : 100, 
+		exampleBlock_postPrimeDuration : 75, 
 		exampleBlock_targetDuration : 500,
 
 		// ****** END EXAMPLE ROUND ********
