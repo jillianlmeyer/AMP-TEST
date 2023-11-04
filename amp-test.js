@@ -46,8 +46,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 			}, 
 			{
-				nameForFeedback : 'Neutrals',  //Will be used in the user feedback 
-				nameForLogging : 'Neutrals', //Will be used in the logging
+				nameForFeedback : 'NeutralsP',  //Will be used in the user feedback 
+				nameForLogging : 'NeutralsP', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    	{word : 'writing'}, 
@@ -61,7 +61,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 		targetCats :  [
 				{
-				nameForLogging : 'Neutrals',  //Will be used in the logging
+				nameForLogging : 'NeutralsT',  //Will be used in the logging
 				//An array of all media objects for this category. The default is pic1-pic200.jpg
 				mediaArray : [
 					{word : 'wondering'}, 
