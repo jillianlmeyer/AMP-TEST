@@ -12,6 +12,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		sortingLabel2 : 'Negative',  //Response is coded as 1.
 
 		targetCat : 'SECOND word', //The name of the targets (used in the instructions)
+
+		//Instructions text for the 2-responses version.
+			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
+			'Press the key <B>rightKey</B> if the targetCat is more rightAttribute than average. ' + 
+			'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' + 
+			'The items appear and disappear quickly.  ' + 
+			'Remember to ignore the first word that appears before the targetCat and evaluate only the targetCat.<br/><br/></p>'  + 
+			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
+			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
+			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
+			'<color="000000">[Round 1 of nBlocks]</p></div>',
 		
 		//  ***** REAL TRIAL ************//
 		primeCats :  [
