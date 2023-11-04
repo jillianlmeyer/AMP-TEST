@@ -68,7 +68,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				{word: 'upset'},
 				{word: 'unhappy'}
 			]
-			},
+		},
 
 		exampleTargetStimulus : {
 			nameForLogging : 'exampleTarget', //Will be used in the logging
@@ -80,7 +80,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				{word: 'upset'},
 				{word: 'unhappy'}
 			]
-			},
+		},
 
 		trialsInBlock : [40, 40, 40, 40], //Number of trials in each block 
 		trialsInExample : 5, //Change to 0 if you don't want an example block
