@@ -5,7 +5,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 	
 	return ampExtension({
 
-		trialsInBlock : [40, 40, 40, 40], //Number of trials in each block 
+		trialsInBlock : [5, 5, 5, 5], //Number of trials in each block 
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 	
 		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
