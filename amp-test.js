@@ -5,7 +5,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 	
 	return ampExtension({
 
-		trialsInBlock : [5, 5, 5, 5], //Number of trials in each block 
+		trialsInBlock : [40, 40, 40, 40], //Number of trials in each block 
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 	
 		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
@@ -41,7 +41,11 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 					{word : 'cheating'}, 
 					{word : 'deception'}, 
 					{word : 'lying'}, 
-					{word : 'stealing'}
+					{word : 'disloyalty'},
+					{word : 'irresponsibility'},
+					{word : 'stealing'},
+					{word : 'groupthink'},
+					{word : 'selfishness'}
 				]
 
 			}, 
@@ -51,10 +55,15 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				//An array of all media objects for this category.
 				mediaArray : [
 				    	{word : 'writing'}, 
-					{word : 'farming'}, 
-					{word : 'baking'}, 
-					{word : 'painting'}, 
-					{word : 'poetry'}
+					{word : 'farming'},
+					{word : 'wondering'},
+					{word : 'whistling'},
+					{word : 'industry'},
+					{word : 'reunion'},
+					{word : 'nursing'},
+					{word : 'listening'},
+					{word : 'passage'},
+					{word : 'watching'}
 				]
 			}
 		],
@@ -64,11 +73,16 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'NeutralsT',  //Will be used in the logging
 				//An array of all media objects for this category. The default is pic1-pic200.jpg
 				mediaArray : [
-					{word : 'wondering'}, 
-					{word : 'golf'}, 
-					{word : 'leisure'}, 
-					{word : 'modesty'}, 
-					{word : 'agreement'}
+					{word : 'writing'}, 
+					{word : 'farming'},
+					{word : 'wondering'},
+					{word : 'whistling'},
+					{word : 'industry'},
+					{word : 'reunion'},
+					{word : 'nursing'},
+					{word : 'listening'},
+					{word : 'passage'},
+					{word : 'watching'}
 				]
 				
 			},
@@ -77,10 +91,15 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				//An array of all media objects for this category. The default is pic1-pic200.jpg
 				mediaArray : [
 					{word : 'murder'}, 
-					{word : 'rape'}, 
-					{word : 'assault'}, 
-					{word : 'racism'}, 
-					{word : 'torture'}
+					{word : 'rape'},
+					{word : 'assault'},
+					{word : 'torture'},
+					{word : 'abuse'},
+					{word : 'slaughter'},
+					{word : 'terrorism'},
+					{word : 'massacre'},
+					{word : 'molesting'},
+					{word : 'killing'}
 				]
 				}
 			],
@@ -101,11 +120,11 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
 			mediaArray : [
-				{word : 'armchair'}, 
-				{word : 'lamp'}, 
-				{word : 'umbrella'},
-				{word: 'murder'},
-				{word: 'rape'}
+				{word : 'painting'}, 
+				{word : 'baking'}, 
+				{word : 'poetry'},
+				{word: 'cruelty'},
+				{word: 'genocide'}
 			]
 		},
 
@@ -114,11 +133,11 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			nameForLogging : 'exampleTarget', //Will be used in the logging
 			//An array of all media objects for this category.
 			mediaArray : [
-				{word : 'armchair'}, 
-				{word : 'lamp'}, 
-				{word : 'umbrella'},
-				{word: 'abuse'},
-				{word: 'slaughter'}
+				{word : 'painting'}, 
+				{word : 'baking'},
+				{word : 'poetry'},
+				{word: 'cruelty'},
+				{word: 'racism'}
 			]
 		},
 
