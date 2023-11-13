@@ -38,10 +38,15 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				//An array of all media objects for this category.
 				mediaArray : [
 					{word : 'unfairness'}, 
-					{word : 'cheating'}, 
+					{word : 'injustice'},
+					{word : 'cheating'},
+					{word : 'fraud'},
 					{word : 'lying'}, 
+					{word : 'dishonesty'},
 					{word : 'disloyalty'},
-					{word : 'stealing'}
+					{word : 'betrayal'},
+					{word : 'stealing'},
+					{word : 'theft'}
 				]
 
 			}, 
