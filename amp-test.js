@@ -26,6 +26,16 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[Round 1 of nBlocks]</p></div>',
+
+		//Set the canvas of the task
+			canvas : {
+				maxWidth: 850,
+				proportions : 0.7,
+				background: '#000000',
+				borderWidth: 5,
+				canvasBackground: '#000000',
+				borderColor: '#000000'
+			},
 		
 		//  ***** REAL TRIAL ************//
 		//The CSS for all the prime stimuli.
@@ -116,7 +126,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 
 		// *********  EXAMPLE ROUND  *****************
-		exampleprimeStimulusCSS : {color:'#FFFF00','font-size':'2.3em'},
 		examplePrimeStimulus : {
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
@@ -129,7 +138,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			]
 		},
 
-		exampleTargetStimulusCSS : {color:'#0000FF','font-size':'2.3em'},
 		exampleTargetStimulus : {
 			nameForLogging : 'exampleTarget', //Will be used in the logging
 			//An array of all media objects for this category.
