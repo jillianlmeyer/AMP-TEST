@@ -37,6 +37,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				borderColor: '#000000'
 			},
 		
+		//The fixation stimulus 
+			fixationStimulus : {
+				css : {color:'#FFFFFF', 'font-size':'3em'}, 
+				media : {word:'+'}
+			}, 
+			//The fixation stimulus in the example block
+			exampleFixationStimulus : {
+				css : {color:'FFFFFF', 'font-size':'3em'}, 
+				media : {word:'+'}
+			}, 
+		
 		//  ***** REAL TRIAL ************//
 		//The CSS for all the prime stimuli.
 			primeStimulusCSS : {color:'#FFFF00','font-size':'2.3em'},
