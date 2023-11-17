@@ -11,6 +11,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
 		sortingLabel2 : 'Neutral',  //Response is coded as 1.
 
+		//The default font color of text in the task (e.g., for key labels).
+			fontColor : '#FFFFFF', 
+
 		rightKey : 'm', 
 		leftKey : 'z',
 
