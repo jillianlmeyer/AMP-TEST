@@ -81,14 +81,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				mediaArray : [
 				    	{word : 'writing'}, 
 					{word : 'farming'},
+					{word : 'painting'},
+					{word : 'baking'},
+					{word : 'poetry'},
 					{word : 'wondering'},
-					{word : 'whistling'},
-					{word : 'industry'},
-					{word : 'reunion'},
-					{word : 'nursing'},
-					{word : 'listening'},
-					{word : 'passage'},
-					{word : 'watching'}
+					{word : 'golf'},
+					{word : 'leisure'},
+					{word : 'modesty'},
+					{word : 'agreement'}
 				]
 			}
 		],
@@ -98,16 +98,16 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'NeutralsT',  //Will be used in the logging
 				//An array of all media objects for this category. The default is pic1-pic200.jpg
 				mediaArray : [
-					{word : 'writing'}, 
-					{word : 'farming'},
-					{word : 'wondering'},
+					{word : 'travel'}, 
 					{word : 'whistling'},
 					{word : 'industry'},
 					{word : 'reunion'},
 					{word : 'nursing'},
 					{word : 'listening'},
 					{word : 'passage'},
-					{word : 'watching'}
+					{word : 'watching'},
+					{word : 'tennis'},
+					{word : 'exercise'}
 				]
 				
 			},
