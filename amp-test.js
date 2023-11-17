@@ -13,6 +13,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 		//The default font color of text in the task (e.g., for key labels).
 			fontColor : '#FFFFFF', 
+			sortingLabel1Color : '#FFFFFF',
+			sortingLabel2Color :'#FFFFFF',
 
 		rightKey : 'm', 
 		leftKey : 'z',
