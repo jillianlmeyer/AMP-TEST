@@ -10,7 +10,7 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(
 	
 		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
 		sortingLabel2 : 'Neutral',  //Response is coded as 1.
-		sortingLabelCSS : {color:'#FFFFFF','font-size':'2.3em'},
+		sortingLabelCSS : {color:'#FF0000','font-size':'2.3em'},
 		
 		rightKey : 'm', 
 		leftKey : 'z',
