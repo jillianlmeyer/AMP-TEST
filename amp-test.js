@@ -9,7 +9,7 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 	
 		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
-		sortingLabel2 : 'Neutral3',  //Response is coded as 1.
+		sortingLabel2 : 'Neutral4',  //Response is coded as 1.
 		
 		rightKey : 'm', 
 		leftKey : 'z',
@@ -129,7 +129,7 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(
 		// *********  EXAMPLE ROUND  *****************
 		
 		//Instructions text for the 2-responses version.
-		exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="FF0000"><br/>' + 
+		exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FF0000"><br/>' + 
 			'Press the key <B>rightKey</B> if the targetCat is more rightAttribute than average. ' + 
 			'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' + 
 			'The items appear and disappear quickly.  ' + 
