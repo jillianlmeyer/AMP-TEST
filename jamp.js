@@ -1,3 +1,11 @@
+//Cite Us
+//You used MinnoJS platform, which is cited like this:
+//Zlotnick, E., Dzikiewicz, A. J., & Bar-Anan, Y. (2015). Minno.js (Version 0.3) [Computer software].
+//To cite our Qualtrics AMP script, cite this blog post:
+//Bengayev, E. (2020, July 27). Running Project Implicit’s AMP from Qulatrics [Blog post]. Retrieved from https://minnojs.github.io/minnojs-blog/qualtrics-amp/
+
+//Adapted by Jillian Meyer
+
 define(['pipAPI','underscore'], function(APIConstructor, _) {
 	/**
 	You can modify most of what you need to modify in the settings 
