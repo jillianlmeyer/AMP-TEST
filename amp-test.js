@@ -9,7 +9,7 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 	
 		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
-		sortingLabel2 : 'Neutral7',  //Response is coded as 1.
+		sortingLabel2 : 'Neutral',  //Response is coded as 1.
 		
 		rightKey : 'm', 
 		leftKey : 'z',
@@ -153,6 +153,9 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(
 			'<p style="font-size:12px; text-align:center; font-family:arial; color:#FFFFFF">' + 
 			'[Round blockNum of nBlocks]</p></div>',
 		
+		endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial; color:#FFFFFF">'+
+			'You have completed the task<br/><br/>Press "space" to continue to next task.</p></div>', 
+			
 
 		
 		//Duration parameters.
