@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualtrics/qamp.js'], function(APIConstructor, ampExtension){
+define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/amp-test.js'], function(APIConstructor, ampExtension){
 
 	var API = new APIConstructor();
 	
@@ -10,7 +10,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 	
 		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
 		sortingLabel2 : 'Neutral',  //Response is coded as 1.
-
+		sortingLabelCSS : {color:'#FFFFFF','font-size':'2.3em'},
+		
 		rightKey : 'm', 
 		leftKey : 'z',
 
@@ -107,6 +108,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				}
 			],
 
+		targetStimulusCSS : {color:'#0000FF','font-size':'2.3em'},
+		
+		
 		//The fixation stimulus 
 		fixationStimulus : {
 			css : {color:'#FFFFFF', 'font-size':'3em'}, 
