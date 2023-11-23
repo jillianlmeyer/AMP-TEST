@@ -16,6 +16,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 		targetCat : 'SECOND word', //The name of the targets (used in the instructions)
 
+		//The default font color of text in the task (e.g., for key labels).
+		fontColor : '#FFFFFF', 
+
 		//Set the canvas of the task
 		canvas : {
 			maxWidth: 850,
@@ -28,15 +31,15 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		
 		
 		//Instructions text for the 2-responses version.
-			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
+			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><br/>' + 
 			'Press the key <B>rightKey</B> if the targetCat is more rightAttribute than average. ' + 
 			'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' + 
 			'The items appear and disappear quickly.  ' + 
 			'Remember to ignore the first word that appears before the targetCat and evaluate only the targetCat.<br/><br/></p>'  + 
-			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
+			'<p style="font-size:16px; text-align:center; font-family:arial"><br/><br/>' + 
 			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			'<color="000000">[Round 1 of nBlocks]</p></div>',
+			'[Round 1 of nBlocks]</p></div>',
 		
 		//  ***** REAL TRIAL ************//
 		//The CSS for all the prime stimuli.
