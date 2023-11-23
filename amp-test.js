@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/amp-test.js'], function(APIConstructor, ampExtension){
+define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(APIConstructor, ampExtension){
 
 	var API = new APIConstructor();
 	
