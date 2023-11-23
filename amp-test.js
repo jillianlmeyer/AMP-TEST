@@ -9,7 +9,7 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 	
 		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
-		sortingLabel2 : 'Neutral',  //Response is coded as 1.
+		sortingLabel2 : 'Neutral2',  //Response is coded as 1.
 		
 		rightKey : 'm', 
 		leftKey : 'z',
