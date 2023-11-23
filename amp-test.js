@@ -21,59 +21,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 		targetCat : 'SECOND word', //The name of the targets (used in the instructions)
 
-		//Instructions text for the 2-responses version.
-			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="FFFFFF"><br/>' + 
-			'Press the key <B>rightKey</B> if the targetCat is more rightAttribute than average. ' + 
-			'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' + 
-			'The items appear and disappear quickly.  ' + 
-			'Remember to ignore the item that appears before the targetCat and evaluate only the targetCat.<br/><br/></p>'  + 
-			'<p style="font-size:16px; text-align:center; font-family:arial"><color="FFFFFF"><br/><br/>' + 
-			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
-			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			'<color="FFFFFF">[Round 1 of nBlocks]</p></div>',
-			firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="FFFFFF"><br/>' + 
-			"See how fast it is? Don't worry if you miss some. " + 
-			'Go with your gut feelings.<br/><br/>' + 
-			'Concentrate on each targetCat and rate it as more rightAttribute than the average targetCat with the <b>rightKey</b> key, ' + 
-			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
-			'Evaluate each targetCat and not the item that appears before it. ' + 
-			'Those items are sometimes distracting.<br/><br/>' + 
-			'<p style="font-size:16px; text-align:center; font-family:arial"><color="FFFFFF"><br/><br/>' + 
-			'Ready? Hit the <b>space bar</b>.</p>' + 
-			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			'<color="FFFFFF">[Round 2 of nBlocks]</p></div>',
-			middleBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="FFFFFF"><br/>' + 
-			'Continue to another round of this task. ' + 
-			'The rules are exactly the same:<br/><br/>' + 
-			'Concentrate on the targetCat and rate it as more rightAttribute than average with the <b>rightKey</b> key, ' + 
-			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
-			'Evaluate each targetCat and not the item that appears before it. ' + 
-			'Those items are sometimes distracting. Go with your gut feelings.<br/><br/>' + 
-			'<p style="font-size:16px; text-align:center; font-family:arial"><color="FFFFFF"><br/><br/>' + 
-			'Ready? Hit the <b>space bar</b>.</p>' + 
-			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			'<color="FFFFFF">[Round blockNum of nBlocks]</p></div>',
-			lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="FFFFFF"><br/>' + 
-			'Ready for the FINAL round? ' + 
-			'The rules are exactly the same:<br/><br/>' + 
-			'Concentrate on the targetCat and rate it as more rightAttribute than average with the <b>rightKey</b> key, ' + 
-			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
-			'Evaluate each targetCat and not the item that appears before it. ' + 
-			'Those items are sometimes distracting. Go with your gut feelings.<br/><br/>' + 
-			'<p style="font-size:16px; text-align:center; font-family:arial"><color="FFFFFF"><br/><br/>' + 
-			'Ready? Hit the <b>space bar</b>.</p>' + 
-			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			'<color="FFFFFF">[Round blockNum of nBlocks]</p></div>',
-		
-		//Set the canvas of the task
-			canvas : {
-				maxWidth: 850,
-				proportions : 0.7,
-				background: '#000000',
-				borderWidth: 5,
-				canvasBackground: '#000000',
-				borderColor: '#000000'
-			},
 		
 		//The fixation stimulus 
 			fixationStimulus : {
