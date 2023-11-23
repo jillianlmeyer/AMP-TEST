@@ -117,7 +117,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 		// *********  EXAMPLE ROUND  *****************
 		examplePrimeStimulus : {
-			css : {color:'FFFF00', 'font-size':'3em'},
+			css : {color:'#FFFF00', 'font-size':'3em'},
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
 			mediaArray : [
@@ -130,7 +130,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		},
 
 		exampleTargetStimulus : {
-			css : {color:'0000FF', 'font-size':'3em'},
+			css : {color:'#0000FF', 'font-size':'3em'},
 			nameForLogging : 'exampleTarget', //Will be used in the logging
 			//An array of all media objects for this category.
 			mediaArray : [
@@ -144,9 +144,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 		//For the example block (often practice)  - MEASURED IN MILLISECONS.  1000MS = 1 SECOND
 		exampleBlock_fixationDuration : 200, 
-		exampleBlock_primeDuration : 100, 
+		exampleBlock_primeDuration : 200, 
 		exampleBlock_postPrimeDuration : 75, 
-		exampleBlock_targetDuration : 500,
+		exampleBlock_targetDuration : 200,
 
 		// ****** END EXAMPLE ROUND ********
 		
