@@ -9,7 +9,7 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 	
 		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
-		sortingLabel2 : 'Neutral6',  //Response is coded as 1.
+		sortingLabel2 : 'Neutral7',  //Response is coded as 1.
 		
 		rightKey : 'm', 
 		leftKey : 'z',
@@ -115,6 +115,45 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(
 			css : {color:'#FFFFFF', 'font-size':'3em'}, 
 			media : {word:'+'}
 		}, 
+
+
+		firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
+			"See how fast it is? Don't worry if you miss some. " + 
+			'Go with your gut feelings.<br/><br/>' + 
+			'Concentrate on each targetCat and rate it as more rightAttribute than the average targetCat with the <b>rightKey</b> key, ' + 
+			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
+			'Evaluate each targetCat and not the item that appears before it. ' + 
+			'Those items are sometimes distracting.<br/><br/>' + 
+			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
+			'Ready? Hit the <b>space bar</b>.</p>' + 
+			'<p style="font-size:12px; text-align:center; font-family:arial; color:#FFFFFF">' + 
+			'[Round 2 of nBlocks]</p></div>',
+		
+		middleBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
+			'Continue to another round of this task. ' + 
+			'The rules are exactly the same:<br/><br/>' + 
+			'Concentrate on the targetCat and rate it as more rightAttribute than average with the <b>rightKey</b> key, ' + 
+			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
+			'Evaluate each targetCat and not the item that appears before it. ' + 
+			'Those items are sometimes distracting. Go with your gut feelings.<br/><br/>' + 
+			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
+			'Ready? Hit the <b>space bar</b>.</p>' + 
+			'<p style="font-size:12px; text-align:center; font-family:arial; color:#FFFFFF">' + 
+			'[Round blockNum of nBlocks]</p></div>',
+	
+		lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
+			'Ready for the FINAL round? ' + 
+			'The rules are exactly the same:<br/><br/>' + 
+			'Concentrate on the targetCat and rate it as more rightAttribute than average with the <b>rightKey</b> key, ' + 
+			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
+			'Evaluate each targetCat and not the item that appears before it. ' + 
+			'Those items are sometimes distracting. Go with your gut feelings.<br/><br/>' + 
+			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
+			'Ready? Hit the <b>space bar</b>.</p>' + 
+			'<p style="font-size:12px; text-align:center; font-family:arial; color:#FFFFFF">' + 
+			'[Round blockNum of nBlocks]</p></div>',
+		
+
 		
 		//Duration parameters.
 		fixationDuration : 200, //It means that by default we do not use fixation.
@@ -128,10 +167,8 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(
 
 		// *********  EXAMPLE ROUND  *****************
 		
-		//Instructions text for the 2-responses version.
-	
 			//Instructions text for the 2-responses version.
-			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
+		exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
 			'Press the key <B>rightKey</B> if the targetCat is more rightAttribute than average. ' + 
 			'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' + 
 			'The items appear and disappear quickly.  ' + 
@@ -140,40 +177,7 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/qamp.js'], function(
 			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial; color:#FFFFFF">' + 
 			'[Round 1 of nBlocks]</p></div>',
-			firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
-			"See how fast it is? Don't worry if you miss some. " + 
-			'Go with your gut feelings.<br/><br/>' + 
-			'Concentrate on each targetCat and rate it as more rightAttribute than the average targetCat with the <b>rightKey</b> key, ' + 
-			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
-			'Evaluate each targetCat and not the item that appears before it. ' + 
-			'Those items are sometimes distracting.<br/><br/>' + 
-			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
-			'Ready? Hit the <b>space bar</b>.</p>' + 
-			'<p style="font-size:12px; text-align:center; font-family:arial; color:#FFFFFF">' + 
-			'[Round 2 of nBlocks]</p></div>',
-			middleBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
-			'Continue to another round of this task. ' + 
-			'The rules are exactly the same:<br/><br/>' + 
-			'Concentrate on the targetCat and rate it as more rightAttribute than average with the <b>rightKey</b> key, ' + 
-			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
-			'Evaluate each targetCat and not the item that appears before it. ' + 
-			'Those items are sometimes distracting. Go with your gut feelings.<br/><br/>' + 
-			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
-			'Ready? Hit the <b>space bar</b>.</p>' + 
-			'<p style="font-size:12px; text-align:center; font-family:arial; color:#FFFFFF">' + 
-			'[Round blockNum of nBlocks]</p></div>',
-			lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
-			'Ready for the FINAL round? ' + 
-			'The rules are exactly the same:<br/><br/>' + 
-			'Concentrate on the targetCat and rate it as more rightAttribute than average with the <b>rightKey</b> key, ' + 
-			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
-			'Evaluate each targetCat and not the item that appears before it. ' + 
-			'Those items are sometimes distracting. Go with your gut feelings.<br/><br/>' + 
-			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
-			'Ready? Hit the <b>space bar</b>.</p>' + 
-			'<p style="font-size:12px; text-align:center; font-family:arial; color:#FFFFFF">' + 
-			'[Round blockNum of nBlocks]</p></div>',
-		
+
 		
 		//The fixation stimulus in the example block
 		exampleFixationStimulus : {
