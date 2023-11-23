@@ -20,9 +20,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		canvas : {
 			maxWidth: 850,
 			proportions : 0.7,
-			background: '#ffffff',
+			background: '#000000',
 			borderWidth: 5,
-			canvasBackground: '#000000',
+			canvasBackground: '#ffffff',
 			borderColor: 'lightblue'
 		}, 
 		
