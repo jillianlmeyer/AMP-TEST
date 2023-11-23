@@ -74,18 +74,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'NeutralsT',  //Will be used in the logging
 				//An array of all media objects for this category. The default is pic1-pic200.jpg
 				mediaArray : [
-					{word : 'writing'}, 
-					{word : 'farming'},
-					{word : 'wondering'},
+					{word : 'travel'}, 
 					{word : 'whistling'},
 					{word : 'industry'},
 					{word : 'reunion'},
 					{word : 'nursing'},
 					{word : 'listening'},
 					{word : 'passage'},
-					{word : 'watching'}
-				]
-				
+					{word : 'watching'},
+					{word : 'tennis'},
+					{word : 'exercise'}
+				]				
 			},
 				{
 				nameForLogging : 'Negatives',  //Will be used in the logging
@@ -107,9 +106,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 		//Duration parameters.
 		fixationDuration : 200, //It means that by default we do not use fixation.
-		primeDuration : 100, 
+		primeDuration : 200, 
 		postPrimeDuration : 75, //Duration of blank screen between prime and target.
-		targetDuration : 500, //Duration of target presentation.
+		targetDuration : 200, //Duration of target presentation.
 		ITI : 250, //Duration between trials.
 
 		//  ********* END REAL TRIALS **********//
