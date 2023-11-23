@@ -57,14 +57,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				mediaArray : [
 				    	{word : 'writing'}, 
 					{word : 'farming'},
+					{word : 'painting'},
+					{word : 'baking'},
+					{word : 'poetry'},
 					{word : 'wondering'},
-					{word : 'whistling'},
-					{word : 'industry'},
-					{word : 'reunion'},
-					{word : 'nursing'},
-					{word : 'listening'},
-					{word : 'passage'},
-					{word : 'watching'}
+					{word : 'golf'},
+					{word : 'leisure'},
+					{word : 'modesty'},
+					{word : 'agreement'}
 				]
 			}
 		],
