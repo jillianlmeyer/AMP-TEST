@@ -16,6 +16,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 		targetCat : 'SECOND word', //The name of the targets (used in the instructions)
 
+		//Set the canvas of the task
+		canvas : {
+			maxWidth: 850,
+			proportions : 0.7,
+			background: '#ffffff',
+			borderWidth: 5,
+			canvasBackground: '#000000',
+			borderColor: 'lightblue'
+		}, 
+		
+		
 		//Instructions text for the 2-responses version.
 			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
 			'Press the key <B>rightKey</B> if the targetCat is more rightAttribute than average. ' + 
@@ -29,8 +40,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		
 		//  ***** REAL TRIAL ************//
 		//The CSS for all the prime stimuli.
-			primeStimulusCSS : {color:'#FFFF00','font-size':'2.3em'},
-			//The prime categories.
+		primeStimulusCSS : {color:'#FFFF00','font-size':'2.3em'},
+		//The prime categories.
 		primeCats :  [
 			{
 				nameForFeedback : 'CMTs',  //Will be used in the user feedback 
