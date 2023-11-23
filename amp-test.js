@@ -8,7 +8,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		trialsInBlock : [40, 40, 40, 40, 40, 40], //Number of trials in each block 
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 	
-		sortingLabel1 : 'Morally Wrong', //Response is coded as 0. 
+		sortingLabel1 : '<style: Morally Wrong', //Response is coded as 0. 
 		sortingLabel2 : 'Neutral',  //Response is coded as 1.
 
 		rightKey : 'm', 
@@ -118,6 +118,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				}
 			],
 
+		//The fixation stimulus 
+		fixationStimulus : {
+			css : {color:'#FFFFFF', 'font-size':'3em'}, 
+			media : {word:'+'}
+		}, 
+		
 		//Duration parameters.
 		fixationDuration : 200, //It means that by default we do not use fixation.
 		primeDuration : 200, 
@@ -129,8 +135,15 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 
 		// *********  EXAMPLE ROUND  *****************
+		//The fixation stimulus in the example block
+		exampleFixationStimulus : {
+			css : {color:'FFFFFF', 'font-size':'3em'}, 
+			media : {word:'+'}
+		}, 
+		
+		examplePrimeStimulusCSS : {color:'#FFFF00', 'font-size':'3em'},
 		examplePrimeStimulus : {
-			css : {color:'#FFFF00', 'font-size':'3em'},
+			css : {color:'FFFF00', 'font-size':'3em'},
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
 			mediaArray : [
