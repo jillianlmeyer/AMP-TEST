@@ -138,7 +138,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		
 		//The fixation stimulus in the example block
 		exampleFixationStimulus : {
-			css : {color:'FFFFFF', 'font-size':'3em'}, 
+			css : {color:'#FFFFFF', 'font-size':'3em'}, 
 			media : {word:'+'}
 		}, 
 		
