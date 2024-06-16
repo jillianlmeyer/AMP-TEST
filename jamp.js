@@ -276,7 +276,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
             // we save as CSV because qualtrics limits to 20K characters and this is more efficient.
             serialize: function (name, logs) {
                 //var headers = ['block', 'trial', 'cond', 'type', 'cat',  'stim', 'resp', 'err', 'rt', 'd', 'fb', 'bOrd'];
-		var headers = ['block','trial','cond8', 'cat', 'stim', 'resp', 'rt','fb'];
+		var headers = ['block','trial','prime', 'prime_word', 'target', 'target_word', 'rt'];
                 var myLogs = [];
                 var iLog;
                 for (iLog = 0; iLog < logs.length; iLog++)
@@ -306,12 +306,13 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
                     return [
                         log.data.block, //'block'
                         log.trial_id, //'trial'
-                        log.data.condition, //'cond'
+                        log.data.condition, //'prime'
                         //log.data, //'comp'
                         //log.nameForLogging, //'type'
-                        log.stimuli[0], //'cat'	    
-                        log.media[1], //'stim'
-                        log.responseHandle, //'resp'
+                        //log.stimuli[0], //'cat'	    
+                        log.media[0], //'prime_word'
+                        log.responseHandle, //'target'
+			log.media[1], //'target_word'
                         //log.data.score, //'err'
                         log.latency, //'rt'
                         //'', //'d'
