@@ -90,7 +90,7 @@ define(['pipAPI', 'https://jillianlmeyer.github.io/AMP-TEST/jamp.js'], function(
 				]				
 			},
 				{
-				nameForLogging : 'Negatives',  //Will be used in the logging
+				nameForLogging : 'Morally Wrong',  //Will be used in the logging
 				//An array of all media objects for this category. The default is pic1-pic200.jpg
 				mediaArray : [
 					{word : 'murder'}, 
